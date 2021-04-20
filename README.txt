@@ -1,6 +1,7 @@
 Samantha Deshazer  project 2 cs458
-This is checkers implemented with images
-these images are stored in a bitmap stored in the project here:
+This is a simple game of 2 player (no ai) checkers made for android.
+
+piece images are stored in a bitmap stored in the project here:
 boardgame\app\src\main\res\drawable-v24
 
 originally I was drawing circles for the pieces, but you cannot remove a drawn image
@@ -10,4 +11,11 @@ background squares, but there were issues of overlaping.
 You also have to click a second time to king a piece, this is just because
 the decision to king is set in the move functions. 
 
-the board is drawn using drawRect, it is not an image. 
+The board is drawn using drawRect(), it is not an image.
+
+Bugs (TODO): 
+Player cannot implement a double jump in one turn.
+Player can increase score by moving a piece once match has ended.
+
+To Add:
+Possibiliy of adding a double-king and ultra-king. 
