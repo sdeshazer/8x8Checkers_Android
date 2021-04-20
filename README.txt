@@ -1,4 +1,4 @@
-Samantha Deshazer  project 2 cs458
+
 This is a simple game of 2 player (no ai) checkers made for android.
 
 piece images are stored in a bitmap stored in the project here:
