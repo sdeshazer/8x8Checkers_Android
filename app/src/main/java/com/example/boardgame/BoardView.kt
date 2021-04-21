@@ -26,8 +26,6 @@ class BoardView(context: Context?, attrs: AttributeSet?) : View(context, attrs) 
 
 
     private val paint = Paint()
-    private var fillColorAI = Color.BLACK
-    private var fillColorPlayer = Color.RED
 
     private val darkSquares = HashSet<DarkSquares>()
 
