@@ -24,6 +24,7 @@ This may work for a game of Othello, but not checkers. But because of this, the 
 Bugs (TODO): 
 Player cannot implement a double jump in one turn, should be allowed.
 Player can increase score by moving a piece once match has ended.
+Concluding impossible win scenarios (ie last peice back into a corner)
 
 To Add:
 Possibiliy of adding a double-king and ultra-king. 
